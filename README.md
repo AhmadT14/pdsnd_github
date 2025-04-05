@@ -1,17 +1,21 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+> **Note**: Please **fork** the original Udacity repository so that you have a **remote** copy in **your own GitHub account**. Clone that remote repository to your local machine. Later, as part of the "Post Your Work on GitHub" project, you will push your proposed changes to the remote repository in your GitHub account.
 
-### Date created
-Include the date you created this project and README file.
+---
+
+### Date Created
+April 5, 2025
 
 ### Project Title
-Replace the Project Title
+pdsnd_github
 
 ### Description
-Describe what your project is about and what it does
+This project is part of the *Programming for Data Science with Python* Nanodegree at Udacity. It introduces the fundamentals of **version control using Git and GitHub**. The main objective is to practice key Git operations such as forking, cloning, committing, and pushing changes to a remote repository.
 
-### Files used
-Include the files used
+### Files Used
+- `bikeshare.py`  
+- CSV files containing bikeshare data for different cities (e.g., `chicago.csv`, `new_york_city.csv`, `washington.csv`)
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+This project and data are provided by the **Udacity Classroom** as part of the Nanodegree curriculum.
+
 
