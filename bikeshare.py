@@ -12,6 +12,7 @@ CITY_DATA = {
 
 def display_raw_data(df):
     """Displays raw data in increments of 5 rows upon user request."""
+    
     start = 0
     while True:
         show_data = input("Would you like to see 5 rows of raw data? Enter yes or no.\n").strip().lower()
@@ -94,7 +95,8 @@ def load_data(city, month, day):
 
 def time_stats(df):
     """
-    Displays statistics on the most frequent times of travel.
+    Displays statistics on the most frequent times of travel, including the most common month,
+    day of week, and start hour.
 
     Args:
         df (DataFrame): The filtered bikeshare data.
