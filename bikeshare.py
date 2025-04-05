@@ -131,9 +131,10 @@ def time_stats(df):
 
 
 def station_stats(df):
-    """Displays statistics on the most popular stations and trip."""
     """
-    Displays statistics on the most frequent times of travel.
+    1) Displays statistics on the most popular stations and trip.
+    
+    2) Displays statistics on the most frequent times of travel.
 
     Args:
         df (DataFrame): The filtered bikeshare data.
