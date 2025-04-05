@@ -1,7 +1,3 @@
-> **Note**: Please **fork** the original Udacity repository so that you have a **remote** copy in **your own GitHub account**. Clone that remote repository to your local machine. Later, as part of the "Post Your Work on GitHub" project, you will push your proposed changes to the remote repository in your GitHub account.
-
----
-
 ### Date Created
 April 5, 2025
 
