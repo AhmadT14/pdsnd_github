@@ -12,6 +12,7 @@ CITY_DATA = {
 
 def display_raw_data(df):
     """Displays raw data in increments of 5 rows upon user request."""
+    
     start = 0
     while True:
         show_data = input("Would you like to see 5 rows of raw data? Enter yes or no.\n").strip().lower()
@@ -64,7 +65,8 @@ def get_filters():
 def load_data(city, month, day):
     """
     Loads data for the specified city and filters by month and day if applicable.
-
+    Adds a progress message to notify when data is being loaded.
+    
     Args:
         (str) city - name of the city to analyze
         (str) month - name of the month to filter by, or "all" to apply no month filter
@@ -72,6 +74,8 @@ def load_data(city, month, day):
     Returns:
         df - Pandas DataFrame containing city data filtered by month and day
     """
+    
+    print(f"Loading data for {city}...")
     if city == 'chicago':
         df = pd.read_csv(CITY_DATA['chicago'])
 
@@ -94,7 +98,8 @@ def load_data(city, month, day):
 
 def time_stats(df):
     """
-    Displays statistics on the most frequent times of travel.
+    Displays statistics on the most frequent times of travel, including the most common month,
+    day of week, and start hour.
 
     Args:
         df (DataFrame): The filtered bikeshare data.
